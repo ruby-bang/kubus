@@ -5,13 +5,13 @@ ini adalah game pertualangan dengan tujuan untuk mencari kubus pink yang dimana 
 ## Build
 Usage:
 ```bash
- make <Option>
+ make <Option> [Option]
 ```
 
 Option: 
-- help
-- build
-- run
+- help    : to show usage Example
+- build   : to Build with default CLIB and CINC
+- run     : to run the game
 
 Advance:
   ```bash
