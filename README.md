@@ -5,8 +5,13 @@ ini adalah game pertualangan dengan tujuan untuk mencari kubus pink yang dimana 
 ## Build
 Usage:
 ```bash
- make build
+ make <Option>
 ```
+
+Option: 
+- help
+- build
+- run
 
 Advance:
   ```bash
