@@ -5,7 +5,7 @@ ini adalah game pertualangan dengan tujuan untuk mencari kubus pink yang dimana 
 ## Build
 Usage:
 ```bash
- make <Option> [PARAMETER]
+ make <Option> [Parameter]
 ```
 
 Option: 
@@ -14,9 +14,17 @@ Option:
 - clean     : to clean
 everything
 
+Parameter:
+- CLIB : path to
+raylib lib
+- CINC : path to raylib
+include
+- target : to specify
+path target
+
 Advance:
   ```bash
-make build CLIB="path/to/lib" CINC="path/to/include"
+make build CLIB="path/to/lib" CINC="path/to/include" target="path/to/target"
 ```
 
 ## Need*
