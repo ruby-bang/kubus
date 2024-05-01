@@ -1,4 +1,4 @@
 # kubus (beta)
 
 ## need
-- [https://github.com/raysan5/raylib](raylib)
+- [raylib](https://github.com/raysan5/raylib)
