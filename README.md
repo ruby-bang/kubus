@@ -11,7 +11,8 @@ Usage:
 Option: 
 - help    : to show usage Example
 - build   : to Build with default CLIB and CINC
-- run     : to run the game
+- clean     : to clean
+everything
 
 Advance:
   ```bash
