@@ -427,8 +427,8 @@ int main(void)
   InitWindow(WINDOW_WIDTH, WINDOW_HIEGHT, "Platform");
   SetTargetFPS(60);
 
-  Font QuincyFont = LoadFontEx("../resource/font/Peter Quincy Sans.otf", 82, 0, 250);
-  Image heart_img = LoadImage("../resource/icon/heart32.png");
+  Font QuincyFont = LoadFontEx("./resource/font/Peter.otf", 82, 0, 250);
+  Image heart_img = LoadImage("./resource/icon/heart.png");
   Texture2D heart = LoadTextureFromImage(heart_img);
   UnloadImage(heart_img);
 

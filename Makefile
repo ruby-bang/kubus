@@ -26,7 +26,8 @@ build: src/main.c clean
 
 	${CC} -I ${CINC} -o main src/main.c -L ${CLIB} ${CFLAG}
 	mkdir -p build
-	mv main ./build/
+	cp -r ./resource ./build
+	mv main ./build
 
 run: build
 	./build/main
